@@ -1,24 +1,12 @@
-# Build a Stunning Portfolio with React JS using Styled-Components and framer-motion for awesome Animations
+# My Portfolio build with React JS using Styled-Components and framer-motion !!
 
-This repository contains starter code for Portfolio Website in ReactJS. <br />
+## This project is a built based on CodeBucks work and you can check him:
+-> Github : https://github.com/codebucks27
+-> Dev Community : https://dev.to/codebucks
+-> Project Guide: https://dev.to/codebucks/build-a-stunning-portfolio-with-react-js-p1
 
 View Demo👇: <br />
-https://react-portfolio-sigma.vercel.app/ <br />
-
-If you want to learn how to create it please follow below tutorial👇: <br />
-
-https://youtu.be/jcohAIaSy2M <br />
-
-----------------------------------------------------------------------------------------------
-### NOTE: 
-[react-particles-js](https://www.npmjs.com/package/react-particles-js) has been deprecated. You can use 
-[react-tsparticles](https://www.npmjs.com/package/react-tsparticles) instead.  <br />
-----------------------------------------------------------------------------------------------
-If you're using NodeJS 17+ versions then you have to edit below line in package.json file👇 <br />
-"start": "react-scripts start", <br />
-Just add --openssl-legacy-provider like this👇 <br />
-"start": "react-scripts --openssl-legacy-provider start", <br />
-
+-> <br />
 
 ### Images of The Portfolio Website:
 ![HOME](https://github.com/codebucks27/React-Portfolio-starter-code-files/blob/main/Portfolio%20Images/Home.png)
