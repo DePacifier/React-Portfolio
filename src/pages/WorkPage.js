@@ -16,7 +16,7 @@ import Work from "../data/WorkData";
 import { YinYang } from "../components/AllSvgs";
 import PageTitle from "../components/PageTitle";
 
-// Framer Variant Definition
+// Framer Motion Variant Definition
 const container = {
   hidden: { opacity: 0 },
   show: {

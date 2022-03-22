@@ -6,6 +6,20 @@ import { motion } from "framer-motion";
 // Component Imports
 import { Github } from "./AllSvgs";
 
+// Framer Motion Variant Definition
+const Item = {
+  hidden: {
+    scale: 0,
+  },
+  show: {
+    scale: 1,
+    transition: {
+      type: "spring",
+      duration: 0.5,
+    },
+  },
+};
+
 const Box = styled(motion.li)`
   width: 16rem;
   height: 40vh;
@@ -82,19 +96,6 @@ const Git = styled(NavLink)`
     }
   }
 `;
-
-const Item = {
-  hidden: {
-    scale: 0,
-  },
-  show: {
-    scale: 1,
-    transition: {
-      type: "spring",
-      duration: 0.5,
-    },
-  },
-};
 
 const WorkCard = (props) => {
   const { id, name, description, tags, demo, github } = props.data;

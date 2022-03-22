@@ -7,6 +7,7 @@ import AboutPage from "./pages/AboutPage";
 import BlogPage from "./pages/BlogPage";
 import WorkPage from "./pages/WorkPage";
 import MySkillsPage from "./pages/MySkillsPage";
+import SoundBar from "./components/SoundBar";
 
 // Styling Imports
 import GlobalStyle from "./globalStyles";
@@ -21,6 +22,7 @@ function App() {
     <>
       <GlobalStyle />
       <ThemeProvider theme={lightTheme}>
+        <SoundBar />
         <AnimatePresence exitBeforeEnter>
           <Switch location={location} key={location.pathname}>
             <Route exact path="/" component={Main} />
