@@ -1,9 +1,7 @@
 import React from "react";
-import { ThemeProvider } from "styled-components";
-import styled from "styled-components";
+import styled, { keyframes, ThemeProvider } from "styled-components";
 
 // Component Imports
-import { Robot, Develope } from "../components/AllSvgs";
 import LogoComponent from "../components/LogoComponent";
 import PowerButton from "../components/PowerButton";
 import SocialIcons from "../components/SocialIcons";
@@ -14,7 +12,6 @@ import { darkTheme } from "./Themes";
 
 // Image Imports
 import astronaunt from "../assets/Images/spaceman.png";
-import { keyframes } from "styled-components";
 
 const Box = styled.div`
   background-color: ${(props) => props.theme.body};
