@@ -1,5 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import styled, { ThemeProvider } from "styled-components";
+import { motion } from "framer-motion";
 
 // Component Imports
 import LogoComponent from "../components/LogoComponent";
@@ -15,6 +16,18 @@ import Work from "../data/WorkData";
 import { YinYang } from "../components/AllSvgs";
 import PageTitle from "../components/PageTitle";
 
+// Framer Variant Definition
+const container = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.5,
+      duration: 0.5,
+    },
+  },
+};
+
 const Box = styled.div`
   background-color: ${(props) => props.theme.body};
   height: calc((44vh * ${(props) => props.numItems}));
@@ -23,7 +36,7 @@ const Box = styled.div`
   align-items: center;
 `;
 
-const Main = styled.ul`
+const Main = styled(motion.ul)`
   position: fixed;
   top: 12rem;
   left: calc(10rem + 15vw);
@@ -69,7 +82,7 @@ const WorkPage = () => {
         <SocialIcons theme="dark" />
         <PowerButton />
 
-        <Main ref={ref}>
+        <Main ref={ref} variants={container} initial="hidden" animate="show">
           {Work.map((work) => (
             <WorkCard key={work.id} data={work} />
           ))}
