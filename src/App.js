@@ -11,7 +11,7 @@ import MySkillsPage from "./pages/MySkillsPage";
 // Styling Imports
 import GlobalStyle from "./globalStyles";
 import { ThemeProvider } from "styled-components";
-import { lightTheme, darkTheme } from "./pages/Themes";
+import { lightTheme } from "./pages/Themes";
 
 function App() {
   return (
