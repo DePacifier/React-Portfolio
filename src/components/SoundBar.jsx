@@ -8,8 +8,8 @@ const Box = styled.div`
   display: flex;
   cursor: pointer;
   position: fixed;
-  left: 8rem;
-  top: 3rem;
+  left: 7rem;
+  top: 2.5rem;
   z-index: 10;
 
   & > *:nth-child(1) {
@@ -53,6 +53,7 @@ const SoundBar = () => {
     setClick((previousClickValue) => !previousClickValue);
 
     if (!click) {
+      ref.current.volume = 0.6;
       ref.current.play();
     } else {
       ref.current.pause();
@@ -67,7 +68,7 @@ const SoundBar = () => {
       <Line click={click} />
       <Line click={click} />
 
-      <audio src={backgroundMusic} ref={ref} loop vol />
+      <audio src={backgroundMusic} ref={ref} loop preload volume={0.2} />
     </Box>
   );
 };

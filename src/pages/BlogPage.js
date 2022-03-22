@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
 // Component Imports
 import LogoComponent from "../components/LogoComponent";
@@ -15,7 +16,19 @@ import backgroundImg from "../assets/Images/patrick-tomasso-Oaqk7qqNh_c-unsplash
 // Blog Data Import
 import Blogs from "../data/BlogData";
 
-const MainContainer = styled.div`
+// Framer Motion Variants
+const container = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.5,
+      duration: 0.5,
+    },
+  },
+};
+
+const MainContainer = styled(motion.div)`
   background-image: url(${backgroundImg});
   background-size: cover;
   background-repeat: no-repeat;
@@ -53,7 +66,12 @@ const BlogPage = () => {
   }, []);
 
   return (
-    <MainContainer>
+    <MainContainer
+      variants={container}
+      initial="hidden"
+      animate="show"
+      exit={{ opacity: 0, transition: { duration: 0.5 } }}
+    >
       <Container>
         <PageTitle text="blog" top="5rem" left="5rem" />
         <LogoComponent />
