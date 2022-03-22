@@ -6,13 +6,14 @@ import LogoComponent from "../components/LogoComponent";
 import PowerButton from "../components/PowerButton";
 import SocialIcons from "../components/SocialIcons";
 import BlogComponent from "../components/BlogComponent";
+import AnchorComponent from "../components/AnchorComponent";
+import PageTitle from "../components/PageTitle";
 
 // Image Imports
 import backgroundImg from "../assets/Images/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg";
 
 // Blog Data Import
 import Blogs from "../data/BlogData";
-import AnchorComponent from "../components/AnchorComponent";
 
 const MainContainer = styled.div`
   background-image: url(${backgroundImg});
@@ -54,6 +55,7 @@ const BlogPage = () => {
   return (
     <MainContainer>
       <Container>
+        <PageTitle text="blog" top="5rem" left="5rem" />
         <LogoComponent />
         <PowerButton />
         <SocialIcons />

@@ -13,12 +13,14 @@ import { darkTheme } from "./Themes";
 // Data Imports
 import Work from "../data/WorkData";
 import { YinYang } from "../components/AllSvgs";
+import PageTitle from "../components/PageTitle";
 
 const Box = styled.div`
   background-color: ${(props) => props.theme.body};
   height: calc((44vh * ${(props) => props.numItems}));
   position: relative;
-  overflow: hidden;
+  display: flex;
+  align-items: center;
 `;
 
 const Main = styled.ul`
@@ -62,6 +64,7 @@ const WorkPage = () => {
   return (
     <ThemeProvider theme={darkTheme}>
       <Box numItems={Work.length}>
+        <PageTitle text="work" bottom="10%" left="10%" />
         <LogoComponent theme="dark" />
         <SocialIcons theme="dark" />
         <PowerButton />

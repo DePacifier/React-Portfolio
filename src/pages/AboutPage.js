@@ -6,6 +6,7 @@ import LogoComponent from "../components/LogoComponent";
 import PowerButton from "../components/PowerButton";
 import SocialIcons from "../components/SocialIcons";
 import ParticleComponent from "../components/ParticleComponent";
+import PageTitle from "../components/PageTitle";
 
 // Styling Imports
 import { darkTheme } from "./Themes";
@@ -51,8 +52,7 @@ const Main = styled.div`
 
   display: flex;
   flex-direction: column;
-  gap: 1rem;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   font-size: calc(0.6rem + 1vw);
   backdrop-filter: blur(4px);
@@ -68,6 +68,7 @@ const AboutPage = () => {
   return (
     <ThemeProvider theme={darkTheme}>
       <Box>
+        <PageTitle text="about" top="10%" left="5%" />
         <LogoComponent theme="dark" />
         <SocialIcons theme="dark" />
         <PowerButton />
@@ -78,14 +79,19 @@ const AboutPage = () => {
         </Spaceman>
 
         <Main>
-          I'm a front-end developer located in India. I love to create simple
-          yet beautiful websites with great user experience.
-          <div />
-          I'm interested in the whole frontend stack Like trying new things and
-          building great projects. I'm an independent freelancer and blogger. I
-          love to write blogs and read books.
-          <div />I believe everything is an Art when you put your consciousness
-          in it. You can connect with me via social links.
+          <p>
+            I'm a front-end developer located in India. I love to create simple
+            yet beautiful websites with great user experience.
+          </p>
+          <p>
+            I'm interested in the whole frontend stack Like trying new things
+            and building great projects. I'm an independent freelancer and
+            blogger. I love to write blogs and read books.
+          </p>
+          <p>
+            I believe everything is an Art when you put your consciousness in
+            it. You can connect with me via social links.
+          </p>
         </Main>
       </Box>
     </ThemeProvider>

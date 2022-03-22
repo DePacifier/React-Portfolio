@@ -8,6 +8,7 @@ import LogoComponent from "../components/LogoComponent";
 import PowerButton from "../components/PowerButton";
 import SocialIcons from "../components/SocialIcons";
 import ParticleComponent from "../components/ParticleComponent";
+import PageTitle from "../components/PageTitle";
 
 // Styling Imports
 import { lightTheme } from "./Themes";
@@ -85,6 +86,7 @@ const MySkillsPage = () => {
   return (
     <ThemeProvider theme={lightTheme}>
       <Box>
+        <PageTitle text="skills" top="80%" right="36%" />
         <LogoComponent theme="light" />
         <SocialIcons theme="light" />
         <PowerButton />
