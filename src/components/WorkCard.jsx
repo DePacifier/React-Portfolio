@@ -113,7 +113,7 @@ const WorkCard = (props) => {
       </Tags>
       <Footer>
         <Link to={{ pathname: `${demo}` }} target="_blank">
-          Check Certificate
+          Certificate
         </Link>
         {/* 
         <Git to={{ pathname: `${github}` }} target="_blank">

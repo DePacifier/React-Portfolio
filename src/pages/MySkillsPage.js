@@ -96,20 +96,20 @@ const MySkillsPage = () => {
             <Develope width={40} height={40} /> Front-End Developer
           </Title>
           <Description>
-            I love to create design which speaks, Keep it clean, minimal and
-            simple.
+            I love to build and create websites with eye capturing design which
+            speaks, keep it clean, minimal and simple.
           </Description>
           <Description>
-            <strong>I like to Design</strong>
-            <ul>
-              <li>Web Design</li>
-              <li>Mobile Apps</li>
-            </ul>
+            <strong>Skills</strong>
+            <p>
+              Html, Css, Js, TypeScript, React, Redux, Sass, Material-UI,
+              Framer-Motion etc.
+            </p>
           </Description>
           <Description>
             <strong>Tools</strong>
             <ul>
-              <li>Figma</li>
+              <li>VScode, Github, Figma etc.</li>
             </ul>
           </Description>
         </Main>
@@ -118,20 +118,23 @@ const MySkillsPage = () => {
             <Robot width={40} height={40} /> Data Analyst and ML Engineer
           </Title>
           <Description>
-            I value business or brand for which i'm creating, thus i enjoy
-            bringing new ideas to life.
+            I appreciate the subtlety and informativeness of data. I enjoy
+            working on data and experimenting on reinforcement learning using
+            games.
           </Description>
           <Description>
             <strong>Skills</strong>
             <p>
-              Html, Css, Js, React, Redux, Sass, Bootstrap, Tailwind, Firebase
-              etc.
+              Python, EDA, DVC, SQL, Tensorflow, Scikit-learn, MLflow, Airflow,
+              CI/CD, FastAPI, C# etc.
             </p>
           </Description>
           <Description>
             <strong>Tools</strong>
             <ul>
-              <p>VScode, Github, Codepen etc.</p>
+              <p>
+                VScode, Github, Streamlit, Jupyter Notebook and Lab, Unity etc.
+              </p>
             </ul>
           </Description>
         </Main>

@@ -20,9 +20,9 @@ const Item = {
 const Container = styled(motion.div)``;
 
 const Box = styled(motion(NavLink))`
-  width: calc(10rem + 15vw);
+  width: calc(20rem + 15vw);
   text-decoration: none;
-  height: 20rem;
+  height: 28rem;
   padding: 1rem;
   color: ${(props) => props.theme.text};
   border: 2px solid ${(props) => props.theme.text};
@@ -44,8 +44,9 @@ const Box = styled(motion(NavLink))`
 const Image = styled.div`
   background-image: ${(props) => `url(${props.img})`};
   width: 100%;
-  height: 60%;
-  background-size: cover;
+  height: 100%; // 60%
+  background-size: contain; // Cover
+  background-repeat: no-repeat; // Remove
   border: 1px solid transparent;
   background-position: center center;
 

@@ -13,7 +13,7 @@ const Blogs = [
     ],
     date: "Completed",
     imgSrc:
-      "https://github.com/DePacifier/TeleCo-Analysis/blob/main/data/engagement_cluster.png",
+      "https://raw.githubusercontent.com/DePacifier/TeleCo-Analysis/main/data/engagement_cluster.png",
     link: "https://github.com/DePacifier/TeleCo-Analysis",
   },
   {
@@ -29,7 +29,7 @@ const Blogs = [
     ],
     date: "Completed",
     imgSrc:
-      "https://github.com/Speech-to-text-data-collection/STT-data-collection/blob/main/data/Flowchart_Diagram.jpg",
+      "https://raw.githubusercontent.com/Speech-to-text-data-collection/STT-data-collection/main/data/Flowchart_Diagram.jpg",
     link: "https://github.com/Speech-to-text-data-collection/STT-data-collection",
   },
   {
@@ -45,7 +45,7 @@ const Blogs = [
     ],
     date: "Completed",
     imgSrc:
-      "https://github.com/10Acad-WFP-App/AMH-STT/blob/main/sample_result.JPG",
+      "https://raw.githubusercontent.com/10Acad-WFP-App/AMH-STT/main/sample_result.JPG",
     link: "https://github.com/10Acad-WFP-App/AMH-STT",
   },
   {
@@ -54,36 +54,44 @@ const Blogs = [
     tags: ["Machine Learning", "Python", "CausalNex", "DVC", "MLflow"],
     date: "Completed",
     imgSrc:
-      "https://github.com/CasualModel/CancerCausality/blob/main/causalitygraphcircle.png",
+      "https://raw.githubusercontent.com/CasualModel/CancerCausality/main/causalitygraphcircle.png",
     link: "https://github.com/CasualModel/CancerCausality",
   },
   {
     id: 5,
-    name: "SmartAd A/B testing",
-    tags: ["react", "reactJS", "web-development"],
-    date: "3 Feb, 2021",
+    name: "SmartAd-Campaign",
+    tags: ["Python", "Data Analysis", "Machine Learning", "Tensorflow"],
+    date: "Completed",
     imgSrc:
-      "https://codebucks.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1625295480148%2FlyKj8bpHK.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
+      "https://raw.githubusercontent.com/DePacifier/abtest-mlops/main/sequential.JPG",
     link: "https://github.com/DePacifier/abtest-mlops",
   },
   {
     id: 6,
     name: "Rossmann Pharmaceutical Sales Prediction",
-    tags: ["react", "css"],
-    date: "5 Jan, 2021",
+    tags: [
+      "Python",
+      "Data Analysis",
+      "Streamlit",
+      "Machine Learning",
+      "Tensorflow",
+      "MLflow",
+      "Xgboost",
+    ],
+    date: "Completed",
     imgSrc:
-      "https://codebucks.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1625240050668%2FGAya9b0XK.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
-    link: "https://codebucks.hashnode.dev/pagination-in-react",
+      "https://raw.githubusercontent.com/DePacifier/pharmacy_sales_prediction/main/data/Prediciton%20image.png",
+    link: "https://github.com/DePacifier/pharmacy_sales_prediction",
   },
 
   {
     id: 7,
-    name: "Python Package For Accessing LiDAR Data",
-    tags: ["react", "redux", "javascript"],
-    date: "16 May, 2021",
+    name: "Custom Python Package For Accessing LiDAR Data",
+    tags: ["Python", "geopandas", "pdal", "Testing"],
+    date: "Incomplete",
     imgSrc:
-      "https://res.cloudinary.com/practicaldev/image/fetch/s--ZY1EK-Eo--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bcz1u90oq3prr5fga3fs.png",
-    link: "https://dev.to/codebucks/what-is-redux-simply-explained-2ch7",
+      "https://raw.githubusercontent.com/DePacifier/3DEP-Farm/main/geo%20pic.JPG",
+    link: "https://github.com/DePacifier/3DEP-Farm",
   },
   {
     id: 8,
@@ -91,8 +99,8 @@ const Blogs = [
     tags: ["react", "framer-motion", "styled-components"],
     date: "26 May, 2021",
     imgSrc:
-      "https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
-    link: "https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3",
+      "https://raw.githubusercontent.com/DePacifier/Twitter-Data-Analysis/main/twitter%20analysis.png",
+    link: "https://github.com/DePacifier/Twitter-Data-Analysis",
   },
   {
     id: 9,
@@ -100,53 +108,71 @@ const Blogs = [
     tags: ["react", "framer-motion", "styled-components"],
     date: "26 May, 2021",
     imgSrc:
-      "https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
-    link: "https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3",
+      "https://drive.google.com/file/d/16oKErbmUPXNAfmlJR8WS0dviW8o5g19e/view?usp=sharing",
+    link: "https://github.com/Prometheus-Team",
   },
   {
     id: 10,
     name: "Minalesh Tera Sales and Adminstration Website",
-    tags: ["react", "scss", "g2-plot", "axios"],
-    date: "26 May, 2021",
+    tags: ["react", "sass", "g2-plot", "axios"],
+    date: "Completed",
     imgSrc:
       "https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
-    link: "https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3",
+    link: "https://github.com/DePacifier/minalebish-admin",
   },
   {
     id: 11,
     name: "Ethiopian Investment Commission Data Portal Website",
-    tags: ["react", "framer-motion", "styled-components"],
-    date: "26 May, 2021",
+    tags: ["react", "Material-UI", "sass", "react-vis", "axios"],
+    date: "In Development",
     imgSrc:
       "https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
-    link: "https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3",
+    link: "https://github.com/DePacifier/EIC-data-portal",
   },
   {
     id: 12,
-    name: "YinganY Game",
-    tags: ["react", "framer-motion", "styled-components"],
-    date: "26 May, 2021",
+    name: "Crown-Clothing",
+    tags: ["react", "redux", "sass", "strip payment", "PWA"],
+    date: "In Development",
     imgSrc:
       "https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
-    link: "https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3",
+    link: "https://github.com/DePacifier/Crown-Clothing",
   },
   {
     id: 13,
-    name: "Chaos Ball Game",
-    tags: ["react", "framer-motion", "styled-components"],
-    date: "26 May, 2021",
+    name: "Smooth Landing Page",
+    tags: ["react", "TypeScript", "framer-motion"],
+    date: "Completed",
     imgSrc:
       "https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
-    link: "https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3",
+    link: "https://github.com/DePacifier/smooth-landing-page",
   },
   {
     id: 14,
-    name: "Gusto's Vending Machine",
-    tags: ["react", "framer-motion", "styled-components"],
-    date: "26 May, 2021",
+    name: "Crown-Clothing",
+    tags: ["react", "redux", "sass", "strip payment", "PWA"],
+    date: "In Development",
     imgSrc:
       "https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
-    link: "https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3",
+    link: "https://github.com/DePacifier/Crown-Clothing",
+  },
+  {
+    id: 15,
+    name: "Note Taker",
+    tags: ["react", "Material-UI", "sass"],
+    date: "Completed",
+    imgSrc:
+      "https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
+    link: "https://github.com/DePacifier/React-Note-Taker",
+  },
+  {
+    id: 16,
+    name: "Gusto's Vending Machine",
+    tags: ["C#", "Combining Design Patterns"],
+    date: "Completed",
+    imgSrc:
+      "https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
+    link: "https://github.com/mnj-projects/Gusto-s-Vending-Machine",
   },
 ];
 
