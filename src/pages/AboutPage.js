@@ -80,17 +80,21 @@ const AboutPage = () => {
 
         <Main>
           <p>
-            I'm a front-end developer located in India. I love to create simple
-            yet beautiful websites with great user experience.
+            I'm a Software Engineer Graduate currently working as a front-end
+            developer located in Ethiopia. I love building amazing websites with
+            great user experience.
           </p>
           <p>
-            I'm interested in the whole frontend stack Like trying new things
-            and building great projects. I'm an independent freelancer and
-            blogger. I love to write blogs and read books.
+            I'm interested in the whole frontend stack, Machine Learning and
+            Data Science. I like trying new things and building great projects.
+            I want to develop my skills and pursue a future in reinforcement
+            learning. I'm currently an independent freelancer and a co-founder
+            at Limon Analytics. I love to play games and read books.
           </p>
           <p>
-            I believe everything is an Art when you put your consciousness in
-            it. You can connect with me via social links.
+            I really enthusiastic about technology and I would love to develop
+            my skills and contribute to its growth. You can connect with me via
+            social links and Mail.
           </p>
         </Main>
       </Box>

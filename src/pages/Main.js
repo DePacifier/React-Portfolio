@@ -200,7 +200,7 @@ const Main = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            Blog
+            Work
           </motion.h2>
         </Blog>
         <Work to="/work" click={click}>
@@ -224,7 +224,7 @@ const Main = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            Work
+            Education
           </motion.h2>
         </Work>
         <BottomBar>

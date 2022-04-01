@@ -77,7 +77,7 @@ const WorkPage = () => {
   return (
     <ThemeProvider theme={darkTheme}>
       <Box numItems={Work.length}>
-        <PageTitle text="work" bottom="10%" left="10%" />
+        <PageTitle text="education" bottom="10%" left="10%" />
         <LogoComponent theme="dark" />
         <SocialIcons theme="dark" />
         <PowerButton />

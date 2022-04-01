@@ -1,63 +1,83 @@
 const Work = [
   {
     id: 1,
-    name: "Agency Landing Page",
-    description:
-      "It is build on top of the React JS, with styledComponents and GSAP for smooth scrolling animations.",
-    tags: ["react", "gsap", "styledComponents"],
+    name: "Version Control with Git",
+    description: "Took a course on Coursera about Git by Atlassian.",
+    tags: ["COMPLETED", "MAY 2019"],
 
-    demo: "https://agency-website-eta.vercel.app/",
-    github: "https://github.com/codebucks27/Agency-website",
-  },
-  {
-    id: 2,
-    name: "Job listing website",
-    description:
-      "A Job listing website build in ReactJS. With searching and filtering functionalities.",
-    tags: ["react", "sass"],
-
-    demo: "http://react-job-listing-website.codebucks27.vercel.app/",
-    github: "https://github.com/codebucks27/react-job-listing-website",
-  },
-  {
-    id: 3,
-    name: "Dev.to Clone",
-    description:
-      "A clone of Dev.to build using ReactJS. With realtime fetching of articles from dev.to using API.",
-    tags: ["react", "api", "sass"],
-
-    demo: "http://devto-clone-codebucks27.vercel.app/",
-    github: "https://github.com/codebucks27/devto-clone",
-  },
-  {
-    id: 4,
-    name: "Sidebar Menu",
-    description:
-      "A cool looking sidebar menu build using ReactJS and styledComponents.It has really smooth animations.",
-    tags: ["react", "styledComponents", "react-router"],
-
-    demo: "https://react-sidebar.vercel.app/",
+    demo: "https://www.google.com/url?q=http://coursera.org/verify/243MYYLZPZZE&sa=D&source=apps-viewer-frontend&ust=1648882991841763&usg=AOvVaw09qtRe1o04e_LV0F5Cj2vr&hl=en",
     github: "https://github.com/codebucks27/react-sidebar",
   },
   {
-    id: 5,
-    name: "Todo App(React + Redux)",
+    id: 2,
+    name: "Programming for Everybody (Getting Started with Python)",
     description:
-      "A todo app build using Redux-toolkit and framer-motion for smooth animations.",
-    tags: ["react", "redux", "framer-motion"],
+      "Took a course on Coursera about Python by Charles Russell from University of Michigan.",
+    tags: ["COMPLETED", "MAY 2019"],
 
-    demo: "http://react-redux-todo-app-git-main-codebucks27.vercel.app/",
+    demo: "https://www.google.com/url?q=http://coursera.org/verify/N3EWXTVU4LSQ&sa=D&source=apps-viewer-frontend&ust=1648882991841807&usg=AOvVaw0GpCPZwsFGNd39vBiI6Ew5&hl=en",
     github: "https://github.com/codebucks27/React-Redux-Todo-App",
   },
   {
-    id: 6,
-    name: "Responsive Navigation Menu",
+    id: 3,
+    name: "Python Data Structures",
     description:
-      "A reponsive navbar menu component in ReactJS with react-router functionalities. Built from scratch.",
-    tags: ["react", "react-router", "css"],
+      "Took a course on Coursera about Data Structures in Python by Charles Russell from University of Michigan.",
+    tags: ["COMPLETED", "JUN 2019"],
 
-    demo: "http://react-responsive-navbar-codebucks27.vercel.app/",
+    demo: "https://www.coursera.org/account/accomplishments/verify/ME7UWY3THVYR",
     github: "https://github.com/codebucks27/React-responsive-navbar",
+  },
+  {
+    id: 4,
+    name: "Machine Learning",
+    description:
+      "Took a course on Coursera about Machine Learning by Andrew Yang from Stanford University Online.",
+    tags: ["COMPLETED", "AUG 2019"],
+
+    demo: "https://www.coursera.org/account/accomplishments/verify/6VAK424YHQLW",
+    github: "https://github.com/codebucks27/devto-clone",
+  },
+
+  {
+    id: 5,
+    name: "Using Python to Access Web Data",
+    description:
+      "Took a course on Coursera about accessing web data using Python by Charles Russell from University of Michigan.",
+    tags: ["COMPLETED", "AUG 2019"],
+
+    demo: "https://www.google.com/url?q=http://coursera.org/verify/3GB98MYHEZ3N&sa=D&source=apps-viewer-frontend&ust=1648882991798382&usg=AOvVaw1uZfEoyCvHjYzNsY6A0f0o&hl=en",
+    github: "https://github.com/codebucks27/React-responsive-navbar",
+  },
+  {
+    id: 6,
+    name: "Software Engineering",
+    description:
+      "Got my Bachelours degree from Addis Ababa University in Ethiopia. Attended for 5 consecutive years and graduated with a 3.78 CGPA score from 4.0.",
+    tags: ["COMPLETED", "DEC 2020"],
+
+    demo: "https://drive.google.com/file/d/1BC_xRm7pBi3xJZOlJX__hKiaSL2S4vVQ/view?usp=sharing",
+    github: "https://github.com/DePacifier",
+  },
+  {
+    id: 7,
+    name: "Data Engineering and Machine Learning",
+    description:
+      "Got trained and certified by 10 Academy in Data Sciences especially in Data Engineering and Machine Learning for 4 months.",
+    tags: ["COMPLETED", "OCT 2021"],
+
+    demo: "https://drive.google.com/file/d/1kGP1Vx83ij97jVbfmmnNm6vMW4o4dfS5/view?usp=sharing",
+    github: "https://github.com/codebucks27/react-job-listing-website",
+  },
+  {
+    id: 7,
+    name: "React Developer",
+    description:
+      "Taking course on React Development given by Zero To Mastery Academy on Udemy and will be finishing it this month.",
+    tags: ["LEARNING", "APR 2022"],
+
+    demo: "https://www.udemy.com/course/complete-react-developer-zero-to-mastery/",
+    github: "https://github.com/codebucks27/react-job-listing-website",
   },
 ];
 

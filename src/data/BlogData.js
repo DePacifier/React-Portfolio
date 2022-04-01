@@ -1,52 +1,74 @@
 const Blogs = [
   {
     id: 1,
-    name: "Build Website with ReactJS, Styled-components and GSAP for Scrolling Animations",
-    tags: ["react", "gsap", "styled-components"],
-    date: "13 May, 2021",
+    name: "TellCo Acquisition Analysis",
+    tags: [
+      "Data Analysis",
+      "Python",
+      "Streamlit",
+      "Data Preparation",
+      "Seaborn",
+      "Machine Learning",
+      "Sklearn",
+    ],
+    date: "Completed",
     imgSrc:
-      "https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-    link: "https://dev.to/codebucks/build-website-with-reactjs-styled-components-and-gsap-for-scrolling-animations-2f10",
+      "https://github.com/DePacifier/TeleCo-Analysis/blob/main/data/engagement_cluster.png",
+    link: "https://github.com/DePacifier/TeleCo-Analysis",
   },
   {
     id: 2,
-    name: "How to create React Hamburger Menu using Styled-Components",
-    tags: ["react", "styled-components"],
-    date: "5 July, 2021",
+    name: "Speech-to-text-data-collection",
+    tags: [
+      "Data Engineering",
+      "Python",
+      "Data Pipelines",
+      "Apache Airflow",
+      "Apache Kafka",
+      "Amazon S3",
+    ],
+    date: "Completed",
     imgSrc:
-      "https://codebucks.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1625479747640%2F7KzwP9nmj.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
-    link: "https://codebucks.hashnode.dev/react-hamburger-menu",
+      "https://github.com/Speech-to-text-data-collection/STT-data-collection/blob/main/data/Flowchart_Diagram.jpg",
+    link: "https://github.com/Speech-to-text-data-collection/STT-data-collection",
   },
   {
     id: 3,
-    name: "React Loading Screen: Try these 3 cool loading screens for your app",
-    tags: ["react", "react-lottie", "styled-components"],
-    date: "6 July, 2021",
+    name: "Amharic Speech To Text",
+    tags: [
+      "Data Engineering",
+      "Machine Learning",
+      "Python",
+      "Streamlit",
+      "Tensorflow",
+      "MLflow",
+    ],
+    date: "Completed",
     imgSrc:
-      "https://codebucks.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1625552344293%2Fegwis0UIX.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
-    link: "https://codebucks.hashnode.dev/react-loading-screens",
+      "https://github.com/10Acad-WFP-App/AMH-STT/blob/main/sample_result.JPG",
+    link: "https://github.com/10Acad-WFP-App/AMH-STT",
   },
   {
     id: 4,
-    name: "How to build a Fabulous Todo App using React, Redux and Framer-Motion",
-    tags: ["react", "redux", "framer-motion"],
-    date: "26 May, 2021",
+    name: "Cancer Cell Feature Causal Inference Diagnosis",
+    tags: ["Machine Learning", "Python", "CausalNex", "DVC", "MLflow"],
+    date: "Completed",
     imgSrc:
-      "https://res.cloudinary.com/practicaldev/image/fetch/s--r5oUDhhT--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/036s7j5b73up7455rdth.png",
-    link: "https://dev.to/codebucks/build-redux-react-todo-list-app-with-animations-using-framer-motion-1mp1",
+      "https://github.com/CasualModel/CancerCausality/blob/main/causalitygraphcircle.png",
+    link: "https://github.com/CasualModel/CancerCausality",
   },
   {
     id: 5,
-    name: "What is Higher Order Component (HOC) in React JS?",
+    name: "SmartAd A/B testing",
     tags: ["react", "reactJS", "web-development"],
     date: "3 Feb, 2021",
     imgSrc:
       "https://codebucks.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1625295480148%2FlyKj8bpHK.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
-    link: "https://codebucks.hashnode.dev/what-is-higher-order-component",
+    link: "https://github.com/DePacifier/abtest-mlops",
   },
   {
     id: 6,
-    name: "How to implement Pagination Component in React from scratch",
+    name: "Rossmann Pharmaceutical Sales Prediction",
     tags: ["react", "css"],
     date: "5 Jan, 2021",
     imgSrc:
@@ -56,7 +78,7 @@ const Blogs = [
 
   {
     id: 7,
-    name: "What is Redux ? Simply Explained!",
+    name: "Python Package For Accessing LiDAR Data",
     tags: ["react", "redux", "javascript"],
     date: "16 May, 2021",
     imgSrc:
@@ -65,7 +87,61 @@ const Blogs = [
   },
   {
     id: 8,
-    name: "How to create Sidebar navigation menu in ReactJS with react router and framer-motion",
+    name: "Twitter Data-Analysis Pipeline",
+    tags: ["react", "framer-motion", "styled-components"],
+    date: "26 May, 2021",
+    imgSrc:
+      "https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
+    link: "https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3",
+  },
+  {
+    id: 9,
+    name: "Prometheus Autonomous 3D Mapping",
+    tags: ["react", "framer-motion", "styled-components"],
+    date: "26 May, 2021",
+    imgSrc:
+      "https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
+    link: "https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3",
+  },
+  {
+    id: 10,
+    name: "Minalesh Tera Sales and Adminstration Website",
+    tags: ["react", "scss", "g2-plot", "axios"],
+    date: "26 May, 2021",
+    imgSrc:
+      "https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
+    link: "https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3",
+  },
+  {
+    id: 11,
+    name: "Ethiopian Investment Commission Data Portal Website",
+    tags: ["react", "framer-motion", "styled-components"],
+    date: "26 May, 2021",
+    imgSrc:
+      "https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
+    link: "https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3",
+  },
+  {
+    id: 12,
+    name: "YinganY Game",
+    tags: ["react", "framer-motion", "styled-components"],
+    date: "26 May, 2021",
+    imgSrc:
+      "https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
+    link: "https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3",
+  },
+  {
+    id: 13,
+    name: "Chaos Ball Game",
+    tags: ["react", "framer-motion", "styled-components"],
+    date: "26 May, 2021",
+    imgSrc:
+      "https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
+    link: "https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3",
+  },
+  {
+    id: 14,
+    name: "Gusto's Vending Machine",
     tags: ["react", "framer-motion", "styled-components"],
     date: "26 May, 2021",
     imgSrc:
