@@ -1,83 +1,184 @@
 const Work = [
   {
     id: 1,
-    name: "Version Control with Git",
-    description: "Took a course on Coursera about Git by Atlassian.",
-    tags: ["COMPLETED", "MAY 2019"],
-
-    demo: "https://www.google.com/url?q=http://coursera.org/verify/243MYYLZPZZE&sa=D&source=apps-viewer-frontend&ust=1648882991841763&usg=AOvVaw09qtRe1o04e_LV0F5Cj2vr&hl=en",
-    github: "https://github.com/codebucks27/react-sidebar",
+    name: "TellCo Acquisition Analysis",
+    description: `Analyzed the customer information of a mobile service provider company called TellCo.
+      To discover growth opportunities and whether TellCo is worth buying or selling.`,
+    tags: [
+      "Data Analysis",
+      "Python",
+      "Streamlit",
+      "Seaborn",
+      "Sklearn",
+      "Heroku",
+      "Data Preparation",
+      "Machine Learning",
+    ],
+    demo: "https://tellcoanalysis.herokuapp.com/",
+    github: "https://github.com/DePacifier/TeleCo-Analysis",
   },
   {
     id: 2,
-    name: "Programming for Everybody (Getting Started with Python)",
-    description:
-      "Took a course on Coursera about Python by Charles Russell from University of Michigan.",
-    tags: ["COMPLETED", "MAY 2019"],
-
-    demo: "https://www.google.com/url?q=http://coursera.org/verify/N3EWXTVU4LSQ&sa=D&source=apps-viewer-frontend&ust=1648882991841807&usg=AOvVaw0GpCPZwsFGNd39vBiI6Ew5&hl=en",
-    github: "https://github.com/codebucks27/React-Redux-Todo-App",
+    name: "Speech-to-text-data-collection",
+    description: `Designed the entire data collection pipeline for an NLP project by building the python server, configuring and implementing Kafka interactions, implementing airflow orchestrations, and more ... `,
+    tags: [
+      "Data Engineering",
+      "Python",
+      "AWS-S3",
+      "Data Pipelines",
+      "Apache Airflow",
+      "Apache Kafka",
+    ],
+    demo: "",
+    github:
+      "https://github.com/Speech-to-text-data-collection/STT-data-collection",
   },
   {
     id: 3,
-    name: "Python Data Structures",
+    name: "Amharic Speech To Text",
     description:
-      "Took a course on Coursera about Data Structures in Python by Charles Russell from University of Michigan.",
-    tags: ["COMPLETED", "JUN 2019"],
-
-    demo: "https://www.coursera.org/account/accomplishments/verify/ME7UWY3THVYR",
-    github: "https://github.com/codebucks27/React-responsive-navbar",
+      "Built various RNN based deep learning neural networks and generated a model capable of transcribing a speech to its text form in the Amharic language.",
+    tags: [
+      "Data Engineering",
+      "Python",
+      "Streamlit",
+      "Tensorflow",
+      "MLflow",
+      "Machine Learning",
+    ],
+    demo: "",
+    github: "https://github.com/10Acad-WFP-App/AMH-STT",
   },
   {
     id: 4,
-    name: "Machine Learning",
+    name: "Cancer Cell Feature Causal Inference Diagnosis",
     description:
-      "Took a course on Coursera about Machine Learning by Andrew Yang from Stanford University Online.",
-    tags: ["COMPLETED", "AUG 2019"],
-
-    demo: "https://www.coursera.org/account/accomplishments/verify/6VAK424YHQLW",
-    github: "https://github.com/codebucks27/devto-clone",
+      "Conducted causal inference on cell features and cancer using CausalNex library's implementation of the NOTEARS algorithm and trained a classification model using CausalNex's DAG Classifier Model.",
+    tags: ["Machine Learning", "Python", "CausalNex", "DVC", "MLflow"],
+    demo: "",
+    github: "https://github.com/CasualModel/CancerCausality",
   },
-
   {
     id: 5,
-    name: "Using Python to Access Web Data",
+    name: "SmartAd-Campaign",
     description:
-      "Took a course on Coursera about accessing web data using Python by Charles Russell from University of Michigan.",
-    tags: ["COMPLETED", "AUG 2019"],
-
-    demo: "https://www.google.com/url?q=http://coursera.org/verify/3GB98MYHEZ3N&sa=D&source=apps-viewer-frontend&ust=1648882991798382&usg=AOvVaw1uZfEoyCvHjYzNsY6A0f0o&hl=en",
-    github: "https://github.com/codebucks27/React-responsive-navbar",
+      "Performed A/B testing if the ads of an advertising company ran resulted in a significant lift in brand awareness and compared machine learning models to test the same problem. ",
+    tags: ["Python", "Data Analysis", "Machine Learning", "Tensorflow"],
+    demo: "",
+    github: "https://github.com/DePacifier/abtest-mlops",
   },
   {
     id: 6,
-    name: "Software Engineering",
+    name: "Rossmann Pharmaceutical Sales Prediction",
     description:
-      "Got my Bachelours degree from Addis Ababa University in Ethiopia. Attended for 5 consecutive years and graduated with a 3.78 CGPA score from 4.0.",
-    tags: ["COMPLETED", "DEC 2020"],
-
-    demo: "https://drive.google.com/file/d/1BC_xRm7pBi3xJZOlJX__hKiaSL2S4vVQ/view?usp=sharing",
-    github: "https://github.com/DePacifier",
+      "Used different machine learning models like neural networks and random forest to build an end-to-end product that delivers sales forecasts to financial analysts.",
+    tags: [
+      "Python",
+      "Streamlit",
+      "Tensorflow",
+      "MLflow",
+      "Xgboost",
+      "Data Analysis",
+      "Machine Learning",
+    ],
+    demo: "https://share.streamlit.io/depacifier/pharmacy_sales_prediction/main/app.py",
+    github: "https://github.com/DePacifier/pharmacy_sales_prediction",
   },
+
   {
     id: 7,
-    name: "Data Engineering and Machine Learning",
+    name: "Custom Python Package For Accessing LiDAR Data",
     description:
-      "Got trained and certified by 10 Academy in Data Sciences especially in Data Engineering and Machine Learning for 4 months.",
-    tags: ["COMPLETED", "OCT 2021"],
-
-    demo: "https://drive.google.com/file/d/1kGP1Vx83ij97jVbfmmnNm6vMW4o4dfS5/view?usp=sharing",
-    github: "https://github.com/codebucks27/react-job-listing-website",
+      "Built a Python Package that would ease the access of LiDAR data and provide different visualization, subsampling, and geospatial analysis mechanisms.",
+    tags: ["Python", "geopandas", "pdal", "Testing"],
+    demo: "",
+    github: "https://github.com/DePacifier/3DEP-Farm",
   },
   {
-    id: 7,
-    name: "React Developer",
+    id: 8,
+    name: "Twitter Data-Analysis Pipeline",
     description:
-      "Taking course on React Development given by Zero To Mastery Academy on Udemy and will be finishing it this month.",
-    tags: ["LEARNING", "APR 2022"],
-
-    demo: "https://www.udemy.com/course/complete-react-developer-zero-to-mastery/",
-    github: "https://github.com/codebucks27/react-job-listing-website",
+      "Analyzed Tweets during the COVID-19 pandemic to find different trends and effects of social distancing and excessive usage of electronic devices.",
+    tags: [
+      "Python",
+      "Streamlit",
+      "Sklearn",
+      "Machine Learning",
+      "Data Analysis",
+    ],
+    demo: "https://share.streamlit.io/depacifier/twitter-data-analysis/main/visualization/app.py",
+    github: "https://github.com/DePacifier/Twitter-Data-Analysis",
+  },
+  {
+    id: 9,
+    name: "Prometheus Autonomous 3D Mapping",
+    description:
+      "Built the user interface, data handling, and transmission and coverage algorithms in python for Prometheus, a vehicle-based 3D Autonomous Mapping system for indoor spaces.",
+    tags: ["Python", "PyQt", "Algorithms", "sockets"],
+    demo: "",
+    github: "https://github.com/Prometheus-Team",
+  },
+  {
+    id: 10,
+    name: "Minalesh Tera Sales and Adminstration Website",
+    description:
+      "Building a web-based shopping site for local seeds, beans, and legumes in Ethiopia with sales analysis and analytics.",
+    tags: ["react", "sass", "g2-plot", "axios"],
+    demo: "https://minalebish-admin.vercel.app/",
+    github: "https://github.com/DePacifier/minalebish-admin",
+  },
+  {
+    id: 11,
+    name: "Ethiopian Investment Commission Data Portal Website",
+    description:
+      "Building a web-based data portal system for tracking investments in Ethiopia and handling investment information requests for the Ethiopian Investment Commission.",
+    tags: ["react", "Material-UI", "sass", "react-vis", "axios"],
+    demo: "https://eic-data-portal.vercel.app/",
+    github: "https://github.com/DePacifier/EIC-data-portal",
+  },
+  {
+    id: 12,
+    name: "Crown-Clothing",
+    description:
+      "Building a web-based cloth shopping site with user management and payment capabilities.",
+    tags: ["react", "redux", "sass", "strip payment", "PWA"],
+    demo: "https://vercel.com/depacifier/crown-clothing",
+    github: "https://github.com/DePacifier/Crown-Clothing",
+  },
+  {
+    id: 13,
+    name: "Smooth Landing Page",
+    description:
+      "Built an animated intro page for a supposed brand when learning framer motion for React.",
+    tags: ["react", "TypeScript", "framer-motion"],
+    demo: "https://smooth-landing-page.vercel.app/",
+    github: "https://github.com/DePacifier/smooth-landing-page",
+  },
+  {
+    id: 14,
+    name: "Note Taker",
+    description:
+      "Built a web-based note-taking app when learning Material-UI using React.",
+    tags: ["react", "Material-UI", "sass"],
+    demo: "https://react-note-taker.vercel.app/",
+    github: "https://github.com/DePacifier/React-Note-Taker",
+  },
+  {
+    id: 15,
+    name: "Chaos Ball Game",
+    description: "Developed a Ping-Pong-like game while learning Unity.",
+    tags: ["C#(C-Sharp)", "Unity"],
+    demo: "",
+    github: "https://github.com/DePacifier/Choas-Ball-Game",
+  },
+  {
+    id: 16,
+    name: "Gusto's Vending Machine",
+    description:
+      "Built a virtual Vending Machine by integrating four different design patterns like Singleton and Strategy patterns using C#.",
+    tags: ["C#(C-Sharp)", "Combining Design Patterns"],
+    demo: "",
+    github: "https://github.com/mnj-projects/Gusto-s-Vending-Machine",
   },
 ];
 

@@ -30,7 +30,7 @@ const container = {
 
 const Box = styled.div`
   background-color: ${(props) => props.theme.body};
-  height: calc((44vh * ${(props) => props.numItems}));
+  height: calc((47vh * ${(props) => props.numItems}));
   position: relative;
   display: flex;
   align-items: center;
@@ -77,7 +77,7 @@ const WorkPage = () => {
   return (
     <ThemeProvider theme={darkTheme}>
       <Box numItems={Work.length}>
-        <PageTitle text="education" bottom="10%" left="10%" />
+        <PageTitle text="work" bottom="5%" left="10%" />
         <LogoComponent theme="dark" />
         <SocialIcons theme="dark" />
         <PowerButton />

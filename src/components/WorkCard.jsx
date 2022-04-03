@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 
 // Component Imports
-// import { Github } from "./AllSvgs";
+import { Github } from "./AllSvgs";
 
 // Framer Motion Variant Definition
 const Item = {
@@ -22,7 +22,7 @@ const Item = {
 
 const Box = styled(motion.li)`
   width: 16rem;
-  height: 40vh;
+  height: 52vh;
   background-color: ${(props) => props.theme.text};
   color: ${(props) => props.theme.body};
   padding: 1.5rem 2rem;
@@ -86,20 +86,19 @@ const Link = styled(NavLink)`
   }
 `;
 
-// const Git = styled(NavLink)`
-//   color: inherit;
-//   text-decoration: none;
+const Git = styled(NavLink)`
+  color: inherit;
+  text-decoration: none;
 
-//   ${Box}:hover & {
-//     & > * {
-//       fill: ${(props) => props.theme.text};
-//     }
-//   }
-// `;
+  ${Box}:hover & {
+    & > * {
+      fill: ${(props) => props.theme.text};
+    }
+  }
+`;
 
 const WorkCard = (props) => {
-  // const { id, name, description, tags, demo, github } = props.data;
-  const { id, name, description, tags, demo } = props.data;
+  const { id, name, description, tags, demo, github } = props.data;
 
   return (
     <Box key={id} variants={Item}>
@@ -112,14 +111,14 @@ const WorkCard = (props) => {
         ))}
       </Tags>
       <Footer>
-        <Link to={{ pathname: `${demo}` }} target="_blank">
-          Certificate
-        </Link>
-        {/* 
+        {demo !== "" && (
+          <Link to={{ pathname: `${demo}` }} target="_blank">
+            Demo
+          </Link>
+        )}
         <Git to={{ pathname: `${github}` }} target="_blank">
           <Github width={30} height={30} />
-        </Git> 
-        */}
+        </Git>
       </Footer>
     </Box>
   );
