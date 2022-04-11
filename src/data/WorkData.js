@@ -91,7 +91,7 @@ const Work = [
     description:
       "Built a Python Package that would ease the access of LiDAR data and provide different visualization, subsampling, and geospatial analysis mechanisms.",
     tags: ["Python", "geopandas", "pdal", "Testing"],
-    demo: "",
+    demo: "https://documentation-3dep.herokuapp.com/",
     github: "https://github.com/DePacifier/3DEP-Farm",
   },
   {
