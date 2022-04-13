@@ -69,7 +69,7 @@ const Blogs = [
       "COMPLETED",
       "Addis Ababa University",
       "Addis Ababa Institute of Technology",
-      "3.7(4.0) CGPA",
+      "3.78(4.0) CGPA",
       "5 Years",
     ],
     date: "DEC 2020",
