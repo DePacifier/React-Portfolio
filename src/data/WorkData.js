@@ -142,7 +142,7 @@ const Work = [
     description:
       "Building a web-based cloth shopping site with user management and payment capabilities.",
     tags: ["react", "redux", "sass", "strip payment", "PWA"],
-    demo: "https://vercel.com/depacifier/crown-clothing",
+    demo: "https://crown-clothing-vert.vercel.app/",
     github: "https://github.com/DePacifier/Crown-Clothing",
   },
   {
