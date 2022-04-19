@@ -73,7 +73,7 @@ const BlogPage = () => {
       exit={{ opacity: 0, transition: { duration: 0.5 } }}
     >
       <Container>
-        <PageTitle text="blog" top="5rem" left="5rem" />
+        <PageTitle text="education" top="5rem" left="5rem" />
         <LogoComponent />
         <PowerButton />
         <SocialIcons />
