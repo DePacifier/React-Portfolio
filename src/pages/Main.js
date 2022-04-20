@@ -179,7 +179,7 @@ const Main = () => {
             Say hi...
           </motion.h2>
         </Contact>
-        <Blog to="/blog">
+        <Blog to="/education">
           <motion.h2
             initial={{
               y: -200,
